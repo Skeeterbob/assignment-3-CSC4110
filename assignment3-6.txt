@@ -1,0 +1,35 @@
+#Rev 0 01/04/2022
+##Begin Bryan Hodgins EG0547 Here
+
+import random
+#ascii codes from 33 to 122
+
+def pw_gen (n = 20):
+    password = []
+    for i in range(n):
+        password.append(chr(random.randint(33,122)))
+    return password
+
+def pw_check (pwList):
+    file = open("rockyou.txt")
+    line = " "
+    flag = False
+    while line != "" and flag == False:
+        line = file.readline()
+        if lineList in pwList:
+            flag = True
+    if flag == False:
+        finalList.append(str(pwList))
+        print(str(pwList))
+            
+
+password = pw_gen(30)
+print (password)
+pw_check(password)
+
+#rev 0 01/04/2022
+##End Bryan Hodgins EG0547 Here
+#Bryan Hodgins CSC 4110 Assignment 3-6
+
+
+    

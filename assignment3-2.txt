@@ -1,0 +1,19 @@
+#Rev 0 01/04/2022
+##Begin Bryan H 01/04/2022
+
+my_var1 = 7.0
+my_var2 = 5
+print("Group 1:")
+print(my_var1 % my_var2)
+
+x = 4
+y = 5
+print("Group 2:")
+print(x//y)
+
+print("Group 3:")
+print(30-3**2+8//3**2*10)
+
+#Rev 0 01/04/2022
+##End Bryan H EG0547 Here
+#Bryan Hodgins Assignment 3-2

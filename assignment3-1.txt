@@ -1,0 +1,17 @@
+#Rev 0 01/04/2022
+## Begin Bryan H EG0547 here
+
+def math_things (num):
+    total = int(num) + 2
+    total = total * 3
+    total = total - 6
+    total = total / 3
+    return total
+
+n = input("Enter a number: ")
+x = math_things(n)
+print (x)
+
+#Rev 0 01/04/2022
+##End Bryan H Here
+#Bryan Hodgins Assignment 3-1

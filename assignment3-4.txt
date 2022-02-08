@@ -1,0 +1,10 @@
+#Rev 0 01/04/2022
+#Begin Bryan Hodgins EG0547 Here
+
+print("(a)", 2**2**3)
+print("(b)", 2**(2**3))
+print("(c)", (2**2)**3)
+
+#Rev 0 01/04/2022
+##End Bryan Hodgins EG0547 Here
+#Bryan Hodgins Assignment 3-4

@@ -1,0 +1,28 @@
+#Rev 0 01/04/2022
+#Begin Bryan Hodgins EG0547 here
+
+import random
+item = " "
+chest = []
+while item != "exit":
+    item = input("Enter an item to add to chest or exit to stop filling chest: ")
+    chest.append(item)
+
+chest.pop()   
+print("Chest contains: ", chest)
+print(len(chest))
+
+bank = int(input("Enter a starting balance for your bank: "))
+print("Starting balance: ", bank)
+
+while bank > 0:
+    wager = int(input("Enter a wager: "))
+    bank = bank - wager
+    print("You won!: ", chest[random.randint(0,len(chest)-1)])
+
+print("Thanks for playing! You are out of money!")
+
+#Rev 0 01/04/2022
+##End Bryan Hodgins EG0547 Here
+#Bryan Hodgins Assignment 3-5
+
